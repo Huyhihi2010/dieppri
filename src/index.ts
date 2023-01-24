@@ -113,7 +113,7 @@ server.listen(PORT, () => {
     const sbx = new GameServer(wss, "sandbox", "Sandbox");
     const teams4 = new GameServer(wss, "4teams", "4 Team")
 
-    games.push(ffa, sbx);
+    games.push(teams4, ffa, sbx);
 
     util.saveToLog("Servers up", "All servers booted up.", 0x37F554);
     util.log("Dumping endpoint -> gamemode routing table");
