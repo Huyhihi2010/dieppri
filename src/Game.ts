@@ -25,7 +25,6 @@ import EntityManager from "./Native/Manager";
 import Client from "./Client";
 
 import ArenaEntity, { ArenaState } from "./Native/Arena";
-import Maze from "./Gamemodes/Maze";
 import FFAArena from "./Gamemodes/FFA";
 import Teams2Arena from "./Gamemodes/Team2";
 import SandboxArena from "./Gamemodes/Sandbox";
