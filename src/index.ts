@@ -111,6 +111,7 @@ server.listen(PORT, () => {
     // NOTES(0): As of now, both servers run on the same process (and thread) here
     const ffa = new GameServer(wss, "ffa", "FFA");
     const sbx = new GameServer(wss, "sandbox", "Sandbox");
+    const teams4 = new GameServer(wss, "4teams", "4 Team")
 
     games.push(ffa, sbx);
 
